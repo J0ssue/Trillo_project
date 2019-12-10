@@ -46,7 +46,11 @@
 		<div class="content">
 			<nav class="sidebar">
 				<ul class="side-nav">
-					<li class="side-nav__item">
+					<li
+						class="side-nav__item"
+						:class="{ 'side-nav__item--active': active === 0 }"
+						@click="toggleActive(0)"
+					>
 						<a href="#" class="side-nav__link">
 							<svg class="side-nav__icon">
 								<use xlink:href="@/assets/images/sprite.svg#icon-home"></use>
@@ -54,7 +58,11 @@
 							<span>Hotel</span>
 						</a>
 					</li>
-					<li class="side-nav__item">
+					<li
+						class="side-nav__item"
+						:class="{ 'side-nav__item--active': active === 1 }"
+						@click="toggleActive(1)"
+					>
 						<a href="#" class="side-nav__link">
 							<svg class="side-nav__icon">
 								<use
@@ -64,7 +72,11 @@
 							<span>Flight</span>
 						</a>
 					</li>
-					<li class="side-nav__item">
+					<li
+						class="side-nav__item"
+						:class="{ 'side-nav__item--active': active === 2 }"
+						@click="toggleActive(2)"
+					>
 						<a href="#" class="side-nav__link">
 							<svg class="side-nav__icon">
 								<use xlink:href="@/assets/images/sprite.svg#icon-key"></use>
@@ -72,7 +84,11 @@
 							<span>Car Rental</span>
 						</a>
 					</li>
-					<li class="side-nav__item">
+					<li
+						class="side-nav__item"
+						:class="{ 'side-nav__item--active': active === 3 }"
+						@click="toggleActive(3)"
+					>
 						<a href="#" class="side-nav__link">
 							<svg class="side-nav__icon">
 								<use xlink:href="@/assets/images/sprite.svg#icon-map"></use>
@@ -89,5 +105,16 @@
 </template>
 
 <script>
-	export default {};
+	export default {
+		data() {
+			return {
+				active: 0
+			};
+		},
+		methods: {
+			toggleActive(activeItem) {
+				this.active = activeItem;
+			}
+		}
+	};
 </script>
