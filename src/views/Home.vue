@@ -99,7 +99,54 @@
 				</ul>
 				<div class="legal">&copy; 2017 by trillo. All rights reserved</div>
 			</nav>
-			<main class="hotel-view">hotel view</main>
+			<!-- HOTEL VIEW SECTION -->
+			<main class="hotel-view">
+				<div class="gallery">
+					<figure class="gallery__item">
+						<img
+							class="gallery__photo"
+							src="@/assets/images/hotel-1.jpg"
+							alt="hotel image"
+						/>
+					</figure>
+					<figure class="gallery__item">
+						<img
+							class="gallery__photo"
+							src="@/assets/images/hotel-2.jpg"
+							alt="hotel image"
+						/>
+					</figure>
+					<figure class="gallery__item">
+						<img
+							class="gallery__photo"
+							src="@/assets/images/hotel-3.jpg"
+							alt="hotel image"
+						/>
+					</figure>
+				</div>
+				<div class="overview">
+					<h1 class="overview__heading">
+						Hotel Las Palmas
+					</h1>
+					<div class="overview__stars">
+						<svg class="overview__icon-star" v-for="(star, i) in 5" :key="i">
+							<use xlink:href="@/assets/images/sprite.svg#icon-star"></use>
+						</svg>
+					</div>
+					<div class="overview__location">
+						<svg class="overview__icon-location">
+							<use
+								xlink:href="@/assets/images/sprite.svg#icon-location-pin"
+							></use>
+						</svg>
+						<button class="btn-inline">Albufeira, Portugal</button>
+						<div class="overview__rating">
+							<div class="overview__rating-average">8.6</div>
+							<div class="overview__rating-count">429 votes</div>
+						</div>
+					</div>
+				</div>
+			</main>
 		</div>
 	</div>
 </template>
