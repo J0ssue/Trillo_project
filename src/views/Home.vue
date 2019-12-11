@@ -146,6 +146,98 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="detail">
+					<div class="description">
+						<p class="para">
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							Reprehenderit eaque asperiores voluptates vitae sit corrupti, iure
+							eius harum labore nisi odit sint delectus praesentium nam,
+							possimus facilis necessitatibus numquam incidunt?
+						</p>
+						<p class="para">
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							Reprehenderit eaque asperiores voluptates vitae sit corrupti, iure
+						</p>
+						<ul class="list">
+							<li class="list__item">Close to the beach</li>
+							<li class="list__item">Breakfast included</li>
+							<li class="list__item">Free airport shuttle</li>
+							<li class="list__item">Free wifi</li>
+							<li class="list__item">A/C & Heating</li>
+							<li class="list__item">Pets allowed</li>
+							<li class="list__item">All languages spoken</li>
+							<li class="list__item">Perfect for families</li>
+						</ul>
+						<div class="recommend">
+							<p class="recommend__count">
+								Lucy and 3 other friends recommend this hotel.
+							</p>
+							<div class="recommend__friends">
+								<img
+									class="recommend__photo"
+									src="@/assets/images/user-3.jpg"
+									alt="user photo"
+								/>
+								<img
+									class="recommend__photo"
+									src="@/assets/images/user-4.jpg"
+									alt="user photo"
+								/>
+								<img
+									class="recommend__photo"
+									src="@/assets/images/user-5.jpg"
+									alt="user photo"
+								/>
+								<img
+									class="recommend__photo"
+									src="@/assets/images/user-6.jpg"
+									alt="user photo"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="user-reviews">
+						<figure class="review">
+							<blockquote class="review__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Deserunt quibusdam similique facilis reprehenderit sapiente
+								placeat exercitationem!
+							</blockquote>
+							<figcaption class="review__user">
+								<img
+									src="@/assets/images/user-1.jpg"
+									alt="user 1"
+									class="review__photo"
+								/>
+								<div class="review__user-box">
+									<p class="review__user-name">Nick Smith</p>
+									<p class="review__user-date">Feb 23rd, 2019</p>
+								</div>
+								<div class="review__rating">7.8</div>
+							</figcaption>
+						</figure>
+						<figure class="review">
+							<blockquote class="review__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Deserunt quibusdam similique facilis reprehenderit sapiente
+								placeat exercitationem!
+							</blockquote>
+							<figcaption class="review__user">
+								<img
+									src="@/assets/images/user-2.jpg"
+									alt="user 2"
+									class="review__photo"
+								/>
+								<div class="review__user-box">
+									<p class="review__user-name">Mary Thomas</p>
+									<p class="review__user-date">Sep 13th, 2019</p>
+								</div>
+								<div class="review__rating">9.3</div>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
 			</main>
 		</div>
 	</div>
